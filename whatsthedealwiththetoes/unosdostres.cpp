@@ -4,18 +4,8 @@ int gridValues[3][3];
 int column;
 int row;
 
-void printGrid() {	// this should print out an ascii grid containing the values stored in the array
-	cout << "   |   |\n"
-		<< " " << gridValues[0][0] << " | " << gridValues[0][1] << " | " << gridValues[0][2] << endl
-		<< "   |   |\n"
-		<< "---+---+---\n"
-		<< "   |   |\n"
-		<< " " << gridValues[1][0] << " | " << gridValues[1][1] << " | " << gridValues[1][2] << endl
-		<< "   |   |\n"
-		<< "---+---+---\n"
-		<< "   |   |\n"
-		<< " " << gridValues[2][0] << " | " << gridValues[2][1] << " | " << gridValues[2][2] << endl
-		<< "   |   |\n\n";
+void printGrid() {
+	//replace with loops
 }
 
 void checkCoord(int coord) {

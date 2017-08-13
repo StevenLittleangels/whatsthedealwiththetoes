@@ -6,6 +6,7 @@ int row;
 
 void printGrid() {
 	//replace with loops
+		//more edits
 }
 
 void checkCoord(int coord) {
